@@ -1,3 +1,4 @@
+#%%
 # PWT data grab
 
 import pandas as pd
@@ -196,3 +197,4 @@ PWT_delta = PWT_df[(PWT_df['variable'] == 'delta') &
                     [['economy_code', 'year', 'variable', 'value', 'source']].reset_index(drop = True)
 
 PWT_delta.to_csv('./data/PWT_delta_2019.csv', index = False)
+#%%

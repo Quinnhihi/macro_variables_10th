@@ -1,3 +1,4 @@
+#%%
 
 #%%
 import pandas as pd
@@ -246,3 +247,4 @@ macro.to_csv(f'results/GDP_estimates/data/00_APEC_GDP_data_{new_date}.csv', inde
 
 
 # %%
+#%%

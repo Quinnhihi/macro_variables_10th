@@ -1,3 +1,4 @@
+#%%
 # Solow Swan Growth estimates for APEC economies
 
 import pandas as pd
@@ -322,3 +323,4 @@ for economy in APEC_econcode.values():
     plt.tight_layout()
     fig.savefig(GDP_est + economy + '_GDP_estimates.png')
     plt.close()
+#%%

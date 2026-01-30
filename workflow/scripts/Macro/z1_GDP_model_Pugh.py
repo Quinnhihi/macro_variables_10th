@@ -1,3 +1,4 @@
+#%%
 # Initial play around with the solowpy model that was built by David Pugh 
 
 import numpy as np
@@ -125,3 +126,4 @@ def sgm_bgp_100yr_run(L0, E0, K0, n = 0.01, g = 0.02, s = 0.15, alpha = 0.5, del
 
 # Test output of function
 sgm_bgp_100yr_run(1000, 1, 100)
+#%%

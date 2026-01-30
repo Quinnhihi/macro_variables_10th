@@ -1,3 +1,4 @@
+#%%
 # Building combined data frame to generate capital, labour, depreciation, savings, etc to 2027
 
 import pandas as pd
@@ -206,3 +207,4 @@ for economy in APEC_econcode.values():
         plt.tight_layout()
         fig.savefig(lab_eff + economy + '_labour_efficiency.png')
         plt.close()
+#%%

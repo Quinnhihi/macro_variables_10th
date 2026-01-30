@@ -1,3 +1,4 @@
+#%%
 # IMF data
 
 import pandas as pd
@@ -217,3 +218,4 @@ IMF_savings.loc[IMF_savings['economy_code'] == '13_PNG', 'source'] = 'Guess'
 IMF_savings.to_csv('./data/IMF_savings_2027.csv', index = False)
 
 
+#%%

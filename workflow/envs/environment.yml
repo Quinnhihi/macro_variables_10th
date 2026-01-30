@@ -1,4 +1,4 @@
-name: null
+name: macro_variables_env
 
 channels:
   - conda-forge
@@ -9,11 +9,10 @@ dependencies:
   - jupyterlab
   - matplotlib
   - pandas
+  - numpy
   - openpyxl
+  - pip
+  - plotly
   - xlsxwriter
   - seaborn
-  - pandasdmx
-  - requests
-  - urllib3
-  - wbgapi
   - sympy

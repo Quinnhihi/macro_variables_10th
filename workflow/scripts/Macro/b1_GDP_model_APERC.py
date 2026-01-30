@@ -1,3 +1,4 @@
+#%%
 # Solow Swan Growth estimates for APEC economies
 
 import pandas as pd
@@ -414,3 +415,4 @@ def aperc_gdp_model(economy = '01_AUS',
         fig.savefig(lab_eff_charts + economy + '_labour_efficiency_to2100.png')
         plt.show()
         plt.close()
+#%%

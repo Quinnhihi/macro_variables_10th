@@ -1,3 +1,4 @@
+#%%
 # UN DESA
 
 import pandas as pd
@@ -271,3 +272,4 @@ for sens in [pop_low, pop_med, pop_high]:
     APEC_population['source'] = 'UN DESA'
 
     APEC_population.to_csv('./data/UN_DESA/undesa_pop_to2100_' + list(sens.values())[0] + '.csv', index = False)
+#%%
